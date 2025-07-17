@@ -63,3 +63,7 @@ func TestCollectorReporterReportTraceEvent(t *testing.T) {
 		})
 	}
 }
+
+func TestFail(t *testing.T) {
+	t.Fail()
+}
